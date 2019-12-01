@@ -1,0 +1,56 @@
+a {
+  color: black;
+  text-decoration: none;
+  font-family: fantasy;
+}
+
+body {
+  margin: 0px;
+  background-color: #FAD1D6 ;
+}
+
+h1 {
+  color: white;
+  font-family: fantasy;
+  font-size: 90px;
+  border-bottom: 2px white solid;
+  text-align: left;
+  padding: 50px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  margin: 0;
+  }
+
+
+  ol {
+    font-family: fantasy;
+    border-right: 2px solid white;
+    width: 110px;
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+
+#gird {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+
+  #article {
+    padding-left: 33px;
+  }
+
+
+@media(max-width:768px){
+  #grid{
+      display: block;
+    }
+
+    ol{
+      border-right:none;
+    }
+    h1 {
+      border-bottom:none;
+    }
+  }
