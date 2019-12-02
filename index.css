@@ -29,10 +29,10 @@ h1 {
     margin: 0;
     padding-top: 15px;
     padding-left: 50px;
-}
+  }
 
 
-#gird {
+  #gird {
     display: grid;
     grid-template-columns: 150px 1fr;
   }
@@ -43,10 +43,9 @@ h1 {
 
 
 @media(max-width:768px){
-  #grid{
-      display: block;
+    #grid{
+      display:block;
     }
-
     ol{
       border-right:none;
     }

@@ -19,6 +19,9 @@ h1 {
   margin: 0;
   }
 
+h2 {
+  font-family: fantasy;
+}
   img {
     width: 300px;
   }
@@ -28,6 +31,8 @@ h1 {
     height: 150px;
     border: 1px solid;
     border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
   }
   th, td {
     border: 1px solid;
@@ -41,23 +46,39 @@ h1 {
     width: 110px;
     margin: 0;
     padding-top: 15px;
+  }
+
+  ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+  }
+
+#daumRoughmapContainer1575136499064 {
+  margin-left: auto;
+  margin-right: auto;
 }
 
+#daumRoughmapContainer1575133772139 {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #gird {
     display: grid;
     grid-template-columns: 150px 1fr;
   }
 
- #article{
+#article{
     padding-left:30px;
+    text-align: center;
   }
 
-@media(max-width:768px){
-  #grid{
-      display: block;
+@media(max-width:768px)
+{
+    #grid {
+    display: block;
     }
-
     ol{
       border-right:none;
     }
